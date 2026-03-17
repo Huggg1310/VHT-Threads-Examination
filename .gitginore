@@ -1,14 +1,7 @@
-# Bỏ qua file thực thi (binary)
 timer_app
-
-# Bỏ qua các file object nếu có biên dịch trung gian
 *.o
-
-# Bỏ qua dữ liệu sinh ra trong thư mục logs (nhưng giữ lại bản thân thư mục)
 logs/freq.txt
 logs/time_and_interval.txt
 logs/*.png
-
-# Bỏ qua các file rác của hệ điều hành
 .DS_Store
 Thumbs.db
